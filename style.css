@@ -17,6 +17,17 @@ body {
     animation: backgroundShift 5s infinite alternate;
 }
 
+/* Centralizando a seção */
+section {
+    background: rgba(0, 0, 0, 0.7);  /* Fundo escuro e translúcido */
+    border-radius: 15px;  /* Bordas arredondadas */
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;  /* Limite de largura para evitar que a caixa fique muito grande */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7);  /* Sombra futurista */
+    animation: fadeIn 3s ease-in-out;
+}
+
 h1 {
     font-size: 3rem;
     letter-spacing: 2px;
@@ -30,7 +41,6 @@ p {
     font-size: 1.5rem;
     letter-spacing: 1px;
     opacity: 0.8;
-    animation: fadeIn 3s ease-in-out;
 }
 
 /* Animação de transição de fundo */
